@@ -33,6 +33,30 @@
 
 </form>
 
+    <br>
+    <h1>Jau reģistrējušies</h1>
+    <a href="confirmation.php">apst</a>
+    <?php
+
+   
+
+     $lietotaji = [
+         $liet1, //   [...$person1]
+         [
+           'Vards' => 'Jānis Bērziņš', 'E-pasts' => 'janis@berzins.com,', 'Līmenis' => 'Intermediate',
+         ],
+        [
+           'Vards' => 'Pēteris Lapa', 'E-pasts' => 'peters@lapa.com,', 'Līmenis' => 'Beginner',
+       ],
+       [
+        'Vards' => 'Ilze Koks', 'E-pasts' => 'il@ze.com,', 'Līmenis' => 'Advanced',
+       ],
+     ];
+    
+    
+    
+    ?>
+
     <a href="blog.php">Links uz Blog</a>
 
     <script src="Javascript\app.js"></script>
