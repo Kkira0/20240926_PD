@@ -4,6 +4,8 @@ foreach($lietotaji as $Vards){
     echo("Jūs esat veiksmīgi apstiprināts -" . $Vards[$Vards]);
 }
 
+echo $people[0]['first_name'];
+echo $people[2]['email'];
 
 ?>
 <!DOCTYPE html>

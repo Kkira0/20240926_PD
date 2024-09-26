@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Piesakies webināram!</h1>
+    <img src="images\code-1839406_1280.jpg" alt="code" width = "400" h = "300">
 <form action="Piesakies">
     <br>
     <label for="namee">Vārds: </label>

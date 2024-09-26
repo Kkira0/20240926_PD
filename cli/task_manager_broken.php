@@ -3,8 +3,9 @@
 class Task {
     private $id;
     private $title;
+    private $description;
 
-    public function __construct($id, $title) {
+    public function setConstruct($id, $title) {
         $this->id = $id;
         $this->title = $title;
         $this->description = $description;
@@ -33,6 +34,7 @@ function displayAllTasks($tasks) {
         echo "No tasks available.\n";
     } else {
         foreach ($tasks as $task) {
+            echo $task;
         }
     }
 }
@@ -75,6 +77,11 @@ function deleteTask(&$tasks) {
     }
 }
 
+function taskCategories(&$task){
+    $id = readline("Enter Task ID to Add: ");
+
+}
+
 while (true) {
     echo "\nToDo List CLI Application\n";
     echo "1. Create Task\n";
@@ -96,7 +103,7 @@ while (true) {
             updateTask($tasks);
             break;
         case 4:
-            deleteTasks();
+            deleteTasks($task);
             break;
         case 5:
             echo "Exiting the application. Goodbye!\n";
